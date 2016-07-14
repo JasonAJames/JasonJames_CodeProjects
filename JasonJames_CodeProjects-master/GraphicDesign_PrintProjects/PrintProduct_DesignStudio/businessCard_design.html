@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body>
+
+<div ng-app="" data-ng-init="fName='Jason'; lName='James'">
+ 
+<p>Input something in the input box:</p>
+<p>First Name: <input type="text" ng-model="fName"></p>
+<p>Last Name: <input type="text" ng-model="lName"></p>
+<p>Address: <input type="text" ng-model="address1"></p>
+<p>Address 2: <input type="text" ng-model="address2"></p>
+<p>City: <input type="text" ng-model="city"></p>
+<p>State: <input type="text" ng-model="state"></p>
+<p>Zipcode: <input type="text" ng-model="zipcode"></p>
+<p>Email: <input type="email" ng-model="email"></p>
+<p>Website: <input type="text" ng-model="website"></p>
+
+<div style="background-image:'http://www.zitnay.com/gallery/d/6365-2/scenery.jpg'; background-color:#CCC; color:#FFF; width:561px; height:337px; padding:25px;">
+<p>{{fName}} {{lName}}</p>
+<p>{{address1}}<br/>
+{{address2}}<br/>{{city + ","}} {{state}} {{zipcode}}</p>
+<p>{{email}}<br/>{{website}}</p>
+</div>
+
+</body>
+</html>

@@ -7,6 +7,8 @@
  * Description: (Chess Game)
  * Date: 6/7/2016
  */
+ 
+ 
 package chessgame.controller;
 
 import chessgame.view.Table;

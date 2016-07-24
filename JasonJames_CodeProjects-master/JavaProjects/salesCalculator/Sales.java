@@ -4,6 +4,7 @@
  * Description: Product Total Sales Calculator
  * Date: 10/8/2015
  */
+ 
 
 package salesCalculator;
 

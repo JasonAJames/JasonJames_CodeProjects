@@ -1,7 +1,7 @@
-/*
+/**
  * File: TokenizingTelephoneNumbers.java
  * @author JasonJames
- * Description: CIS-18a Homework 8 Section 14.8 (Tokenizing Telephone Numbers) Write an application that inputs a telephone number as a
+ * Description: (Tokenizing Telephone Numbers) Write an application that inputs a telephone number as a
  * string in the form (555) 555-5555. The application should use String method split to extract the
  * area code as a token, the first three digits of the phone number as a token and the last four digits of
  * the phone number as a token. The seven digits of the phone number should be concatenated into

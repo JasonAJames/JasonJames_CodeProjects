@@ -1,7 +1,7 @@
-/*
+/**
  * File: SearchingStrings.java
  * @author JasonJames
- * Description:CIS 18A Homework 8 Section 14.11 (Searching Strings) Write an application
+ * Description:(Searching Strings) Write an application
  * that inputs a line of text and a search character and uses String method indexOf to 
  * determine the number of occurrences of the character in the text.
  * Date: 10/29/2015

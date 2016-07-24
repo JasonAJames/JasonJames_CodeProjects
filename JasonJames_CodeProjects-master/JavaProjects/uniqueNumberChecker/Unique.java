@@ -78,4 +78,5 @@ public class Unique
              System.out.println(currentValue);
          }  
    } // end method getNumbers
-} // end class Unique
+} 
+// end class Unique

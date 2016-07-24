@@ -1,13 +1,14 @@
 /**
- * File: CompareStringsRegoinMatches.java
+ * File: CompareStringsRegionMatches.java
  * @author JasonJames
- * Description: CIS 18a homework 08 - section 14.4
+ * Description:
  * (Comparing Portions of Strings) Write an application that uses String method region-
  * Matches to compare two strings input by the user. The application should input the number of characters
  * to be compared and the starting index of the comparison. The application should state
  * whether the strings are equal. Ignore the case of the characters when performing the comparison.
  * Date: 10/29/2015
  */
+ 
 package StringFormatting;
 
 import java.util.Scanner;

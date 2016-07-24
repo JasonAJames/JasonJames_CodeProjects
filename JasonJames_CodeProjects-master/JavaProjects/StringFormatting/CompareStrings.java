@@ -1,11 +1,12 @@
 /**
  * File: CompareStrings.java
  * @author JasonJames
- * Description: CIS 18a homework 08 - section 14.3
+ * Description: 
  * (Comparing Strings) Write an application that uses String method compareTo to compare two strings
  * input by the user. Output whether the first string is less than, equal to or greater than the second.
  * Date: 10/29/2015
  */
+ 
 package StringFormatting;
 
 /**

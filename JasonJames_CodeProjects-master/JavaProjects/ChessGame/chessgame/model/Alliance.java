@@ -7,6 +7,7 @@
  * Description: (Chess Game)
  * Date: 6/7/2016
  */
+ 
 
 package chessgame.model;
 

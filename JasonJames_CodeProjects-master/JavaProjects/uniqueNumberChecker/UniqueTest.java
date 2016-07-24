@@ -18,4 +18,5 @@ public class UniqueTest
       Unique application = new Unique();
       application.getNumbers();
    } // end main
-} // end class UniqueTest
+} 
+// end class UniqueTest

@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf0 \CocoaLigature0 Last login: Fri Jul 22 08:49:47 on ttys000\
+Jasons-MBP:~ jasonjames$ cd /Volumes/IETV_EXT1/GitHub_Portfolio\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git status\
+On branch master\
+nothing to commit, working directory clean\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git add .\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git status\
+On branch master\
+nothing to commit, working directory clean\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git pull\
+There is no tracking information for the current branch.\
+Please specify which branch you want to merge with.\
+See git-pull(1) for details.\
+\
+    git pull <remote> <branch>\
+\
+If you wish to set tracking information for this branch you can do so with:\
+\
+    git branch --set-upstream-to=origin/<branch> master\
+\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git branch --set-upstream-to=origin master\
+error: the requested upstream branch 'origin' does not exist\
+hint: \
+hint: If you are planning on basing your work on an upstream\
+hint: branch that already exists at the remote, you may need to\
+hint: run "git fetch" to retrieve it.\
+hint: \
+hint: If you are planning to push out a new local branch that\
+hint: will track its remote counterpart, you may want to use\
+hint: "git push -u" to set the upstream config as you push.\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git fetch\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git remote -v\
+origin	git@github.com:JasonAJames/JasonJames_CodeProjects.git (fetch)\
+origin	git@github.com:JasonAJames/JasonJames_CodeProjects.git (push)\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git fetch origin\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git add .\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git status\
+On branch master\
+nothing to commit, working directory clean\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git push origin\
+fatal: The current branch master has no upstream branch.\
+To push the current branch and set the remote as upstream, use\
+\
+    git push --set-upstream origin master\
+\
+Jasons-MBP:GitHub_Portfolio jasonjames$ git push --set-upstream origin master\
+To git@github.com:JasonAJames/JasonJames_CodeProjects.git\
+ ! [rejected]        master -> master (non-fast-forward)\
+error: failed to push some refs to 'git@github.com:JasonAJames/JasonJames_CodeProjects.git'\
+hint: Updates were rejected because the tip of your current branch is behind\
+hint: its remote counterpart. Integrate the remote changes (e.g.\
+hint: 'git pull ...') before pushing again.\
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.\
+Jasons-MBP:GitHub_Portfolio jasonjames$ }

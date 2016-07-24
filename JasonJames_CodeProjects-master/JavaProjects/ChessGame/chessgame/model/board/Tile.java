@@ -8,6 +8,7 @@
  * Date: 6/7/2016
  */
 
+
 package chessgame.model.board;
 
 import chessgame.model.piecesFactory.Piece;

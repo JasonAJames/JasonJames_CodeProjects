@@ -8,6 +8,7 @@
  * Date: 6/7/2016
  */
 
+
 package chessgame.model.player;
 
 import chessgame.model.Alliance;

@@ -1,0 +1,80 @@
+
+#include "Date.h";
+ 
+
+int main()
+{
+	Date info;
+	string input;
+	string input2;
+
+	cout << "Enter the Day: ";
+	cin >> input;
+    
+	info.setDay(input);
+	if (input > 31 || input < 1)
+	{
+		cout << "please input valid number 1 to 31 ";
+	}
+
+	cout << "Enter the Month: ";
+	cin >> input;
+	info.setMonth(input);
+
+	if (input == "01")
+	{
+		info.setLatMonth("january");
+	}
+	else if (input=="2")
+	{
+		info.setLatMonth("Fabrury");
+	}
+	else if (input == "03")
+	{
+		info.setLatMonth("March");
+	}
+	else if (input == 04)
+	{
+		info.setLatMonth("Abril");
+	}
+	else if (input == 05)
+	{
+		info.setLatMonth("May");
+	}
+	else if (input == 06)
+	{
+		info.setLatMonth("june");
+	}
+	else if (input == 07)
+	{
+		info.setLatMonth("July");
+	}
+	else if (input == 08)
+	{
+		info.setLatMonth("August");
+	}
+	else if (input == 09)
+	{
+		info.setLatMonth("september");
+	}
+	else if (input == 10)
+	{
+		info.setLatMonth("October");
+	}
+	else if (input == 11)
+	{
+		info.setLatMonth("Novamber");
+	}
+	else if (input == 12)
+	{
+		info.setLatMonth("Decamber");
+	}
+	cout << "Enter the Year: ";
+	cin >> input;
+	info.setYear(input);
+
+	cout << "The Date " << info.getDay() << "/" << info.getMonth() << " / " << info.getYear() << endl;
+	cout << "The Date " << info.getLatMonth() << " " << info.getDay() << ", " << info.getYear() << endl;
+	return 0;
+
+}

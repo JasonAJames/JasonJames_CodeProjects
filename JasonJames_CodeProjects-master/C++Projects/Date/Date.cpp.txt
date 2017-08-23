@@ -1,0 +1,38 @@
+#include "Date.h"
+
+Date::Date(){ Day = "\0"; Month = "\0"; Year = "\0"; }
+void Date::setDay(string D)
+{
+	Day = D;
+}
+
+void Date::setMonth(string M)
+{
+	Month = M;
+}
+
+void Date::setYear(string Y)
+{
+	Year = Y;
+}
+void Date::setLatMonth(string M)
+{
+	LatMonth = M;
+}
+string Date::getDay()
+{
+	return Day;
+}
+string Date::getLatMonth()
+{
+	return LatMonth;
+}
+string Date::getMonth()
+{
+	return Month;
+}
+
+string Date::getYear()
+{
+	return Year;
+}
